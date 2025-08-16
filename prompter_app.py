@@ -1,7 +1,7 @@
 import streamlit as st
 from hashlib import sha256
 
-st.set_page_config(page_title="My App", layout="centered"page_icon="🔒")
+st.set_page_config(page_title="My App", layout="centered", page_icon="🔒")
 
 def check_password():
     def password_entered():
